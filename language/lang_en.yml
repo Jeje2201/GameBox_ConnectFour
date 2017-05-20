@@ -32,7 +32,7 @@ name: "&1Connect4&r"
 gameHelp:
   - "&1&lThrow chips into the game by clicking"
   - "  &1&lwhen it's your turn."
-  - '&1&lChips allways fall down until the they'
+  - '&1&lChips allways fall down until they'
   - "  &1&lreach the bottom or another chip."
   - ""
   - '&1&lWin the game by getting 4 in a row'
