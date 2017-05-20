@@ -1,0 +1,39 @@
+# utilise & pour les couleurs
+#   placeholders seront listés en face des clés
+
+# messages et titres d'inventaires seront en relation à la partie
+game:
+  econ:
+    # Utilise %cost% pour le montant payé
+    payed: " &2Tu as payé &4%cost%"
+    notEnoughMoney: " &4Tu n'as pas assez de money!"
+    # Utilise %reward% pour le montant que le joueur gagne
+    wonMoney: " &2Tu as gagné &1%reward%&2!"
+    # Utilise %reward% pour le montant que le gagnant a gagné et %loser% pour le joueur qui a perdu
+    wonMoneyGaveUp: " &2Tu as gagné &1%reward%&2! %loser% abandonne."
+  inventoryTitles:
+    # %player% sera remplacé par le nom du joueur qui joue
+    ingame: "&3Connect4   C'est au tours de &1%player%'s"
+    won: "&3Connect4           &2Tu as gagné"
+    lost: "&3Connect4           &4Tu as perdu"
+    draw: "&3Connect4           &3Dessine!"
+  won: " &2Tu as gagné la partie!"
+  lost: " &4Tu as perdu la partie"
+  # Message d'abandon
+  gaveUp: " &4Tu as abandonné"
+  # Message de victoire quand l'autre joueur abandonne
+  #   Utilise %loser% pour le nom du joueur qui perd
+  otherGaveUp: " &2Tu as gagné! %loser% a abbandonné."
+
+
+prefix: "[&3Connect4&r]"
+name: "&1Connect4&r"
+
+gameHelp:
+  - "&1&lThrow chips into the game by clicking"
+  - "  &1&lQuand c'est ton tours."
+  - '&1&lLes jetons tombent jusqu à ce qu ils'
+  - "  &1&latteignent un autre jetons ou le sol."
+  - ""
+  - '&1&lGagne la partie avec une ligne de 4'
+  
