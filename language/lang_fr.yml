@@ -1,0 +1,38 @@
+# Utilise & pour les couleurs
+#   Les espaces réservés seront listés en face des clés
+
+# Messages et titres d'inventaire directement liés au jeu
+game:
+  econ:
+    # Utilisation %cost% pour le montant payé
+    payed: " &2Tu as payé &4%cost%"
+    notEnoughMoney: "&4Vous n'avez pas assez d'argent!"
+    # Utilise %reward% pour le montant que le joueur a gagné
+    wonMoney: " &2Tu as gagné &1%reward%&2!"
+    # Utilise %reward% pour le montant que le joueur a gagné et %loser% pour le joueur qui a abandonné
+    wonMoneyGaveUp: " &2Tu as gagné &1%reward%&2! %loser% a abandonné."
+  inventoryTitles:
+    # %player%  sera remplacé par le nom du joueur qui doit jouer
+    ingame: "&3Puissance4   C'est au tour de &1%player%"
+    won: "&3Puissance4           &2Tu as gagné"
+    lost: "&3Puissance4           &4Tu as perdu"
+    draw: "&3Puissance4           &3Dessine!"
+  won: " &2Tu as gagné la partie!"
+  lost: " &4Tu as perdu la partie!"
+  # Message d'abandon
+  gaveUp: " &4Tu as abandonné"
+  # Message gagnant envoyé quand l'adversaire abandonne
+  #   Utilise %loser% pour le nom du joueur qui a abandonné
+  otherGaveUp: " &2Tu as gagné! %loser% a abandonné."
+
+
+prefix: "[&3Puissance4&r]"
+name: "&1Puissance4&r"
+
+gameHelp:
+  - "&1&lEnvoie un jeton en cliquant"
+  - "  &1&lQuand c'est ton tour."
+  - "&1&lLes jetons tombent jusqu'à entrer"
+  - "  &1&len contact avec un autre jeton."
+  - ""
+  - '&1&lA gagné la puissance 4 avec une ligne'
